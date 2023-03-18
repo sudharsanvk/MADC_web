@@ -1,0 +1,171 @@
+.prof-img
+{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.prof-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar-toggler{
+   
+    border: none !important;
+  }
+
+.united{
+    color: gray;
+    font-weight: 475;
+}
+
+.navbar-toggler-icon{
+    width: 25px;
+}
+
+  .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input{
+    border-radius: 200px;
+    width: 90%;
+    border: 1px solid gray !important;
+}
+
+.search-box input::placeholder{
+    padding: 20px;
+    font-size: medium;
+}
+
+.logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.united svg{
+    color:grey;
+}
+
+.logos div{
+    width: 40px;
+    /* height: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logos div img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.body-section{
+    background-color: lightgrey;
+}
+
+.card{
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 20px;
+    gap: 20px;
+}
+
+
+
+.card-img{
+    width: 40%;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-btn{
+    background-color: #003769;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card-group{
+    padding-top: 20px !important;
+    margin-bottom: 80px;
+}
+
+.bottom-nav{
+    background-color: #d3d3d3 !important;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mob-navbar {
+    position: fixed;
+    top:auto;
+    bottom: 0;
+    width: 90% ;
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    background-color: #003769;
+    border-radius: 30px;
+    /* margin: 20px; */
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 656px) {
+    .mob-navbar {
+      top:auto;
+      bottom: 0;
+    }
+  }
+
+  button{
+    color: white;
+  }
+
+  svg{
+    color: white;
+  }
+  
+  .card-img svg{
+    color:#003769;
+  }
+
+  .rating svg{
+    color: #feaf17;
+  }
+
+  .location svg{
+    color:grey;
+}

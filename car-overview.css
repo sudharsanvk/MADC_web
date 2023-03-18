@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Just+Another+Hand&family=Public+Sans:wght@200&family=Quicksand:wght@500&family=Rubik+Distressed&display=swap');
+
+.back-logo svg{
+    border: 1px solid grey !important;
+    padding:3px 5px;
+    border-radius: 50%;
+    color: #003769;
+}
+
+.bookmark-logo svg{
+    border: 1px solid grey !important;
+    padding:3px 5px;
+    border-radius: 50%;
+    color: #003769;
+}
+
+body div{
+    padding: 15px ;
+    font-family: 'Public Sans';
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-img{
+    width: 100%;
+}
+
+.car-img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.car-images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-images img{
+    width: 50%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.car-details{
+    background-color: white;
+}
+
+.grey{
+    background-color: rgba(211, 211, 211, 0.268);
+    min-height: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-now-btn{
+    background-color: #003769;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 15px auto;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.car-info{
+    color: gray;
+}

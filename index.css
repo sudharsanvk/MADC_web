@@ -1,0 +1,61 @@
+.image{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.image img{
+    width: 90%;
+    object-fit: contain;
+}
+
+body{
+    background-color: black;
+}
+
+.carousel{
+    min-height: 40vh;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel-item{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+        background-color: #003769;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 80%;
+        margin: auto;
+        color: lightgray;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.carousel-indicators button{
+    height: 8px !important;
+    width: 8px !important;
+    border-radius: 50%;
+    background-color: grey !important;
+}
+
+.carousel-indicators button.active{
+    background-color: #003769 !important;
+}
+a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
